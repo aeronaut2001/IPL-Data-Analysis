@@ -1,0 +1,1 @@
+required run rate = (remaining run /remaining ball)*6

@@ -1,0 +1,32 @@
+
+Dim_ball_by_ball not need scd and increamental load
+Dim_match not need scd and increamental load
+Dim_wicket_taken not need scd and increamental load 
+Dim_player_match not need scd and increamental load  (correction match id and player id composite key )
+
+
+
+Dim_extra_run - not need scd and increamental load	
+Dim_batsman_scored - not need scd and increamental load
+Dim_city - new cities added to countries are possible so scd not needed but increamental load is need 
+
+Dim_Country - participation of new player from different countries are possible so scd not needed but increamental load is need 
+
+Dim_Venue - error handling and venue need increamental load only scd 1
+
+Dim_Team  - using scd for increamental load because team name is change so we can mentain using scd 1 to replace not 2 because we dont want to maintain history 
+
+Dim_Batting_Style - no need of increamental load because bat style not change
+Dim_Bowling_Style - bowling style may change and increamental
+Dim_Extra_Type - not need scd and increamental load
+Dim_Season - not need scd and increamental load	
+Dim_Role - not need scd and no increamental load
+Dim_Toss_Decision - not need scd and no increamental load 
+Dim_Win_Type -  not need scd and no increamental load 
+Dim_Out_Type - not need scd and increamental load
+Dim_Outcome - not need scd and no increamental load 
+Dim_Player - not need scd and increamental load
+fuzzy_player_data
+
+
+and i can do the data conversion by using advanced editor not by data conversion component 
